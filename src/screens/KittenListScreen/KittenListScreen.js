@@ -25,7 +25,7 @@ function KittenListScreen(props) {
     for (let i = 0; i < number; i++) {
       list.push({
         name: hundredKittens[Math.floor(Math.random() * hundredKittens.length)],
-        avatar: `http://placekitten.com/${Math.floor(
+        avatar: `https://placekitten.com/${Math.floor(
           Math.random() * (9 - 0) + 0
         )}00/${Math.floor(Math.random() * (9 - 0) + 0)}00`
       });
